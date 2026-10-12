@@ -3,7 +3,7 @@
 A template repository for writing [Dolphy](https://github.com/dolphy-app/dolphy)
 extensions. It holds two working examples in a pnpm workspace whose layout
 repeats the one of the extension catalog
-([`dolphy-app/dolphy-extensions`](https://github.com/dolphy-app/dolphy-extensions)):
+([`dolphy-app/extensions`](https://github.com/dolphy-app/extensions)):
 every folder in `extensions/` can be moved into a catalog pull request as it
 is.
 
@@ -132,7 +132,7 @@ and the recipes next to it.
    app shows the text in its language); the object form needs `minAppVersion`
    0.7.0 or newer.
 2. Run `pnpm install`, `pnpm test`, `pnpm build`, `pnpm validate` and `pnpm check`.
-3. Fork [`dolphy-app/dolphy-extensions`](https://github.com/dolphy-app/dolphy-extensions)
+3. Fork [`dolphy-app/extensions`](https://github.com/dolphy-app/extensions)
    and copy `extensions/<id>` into `extensions/<id>` of the fork (the folder
    name must equal the `id` in `extension.json`). Copy the source files and the
    lockfile, not `node_modules` or `dist-ext`.
@@ -179,7 +179,7 @@ commit the file next to `pnpm-lock.yaml`.
 ## Layout
 
 ```
-dolphy-extension-template/
+extension-template/
   extensions/
     hello-vue/           # Vue single-file components: commands, panel, card
     hello-react/         # the same in React, plus RPC and the window API

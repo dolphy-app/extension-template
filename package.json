@@ -1,5 +1,5 @@
 {
-  "name": "dolphy-extension-template",
+  "name": "extension-template",
   "version": "1.0.0",
   "private": true,
   "description": "Template repository for Dolphy extensions: two ready-to-build examples in a pnpm workspace that mirrors the catalog layout.",
