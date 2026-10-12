@@ -2,7 +2,7 @@
 
 A pnpm workspace of Dolphy extensions. Each folder in `extensions/` is a
 stand-alone `dolphy-ext` project laid out like the catalog
-(`dolphy-app/dolphy-extensions`), so it can be copied into a catalog pull
+(`dolphy-app/extensions`), so it can be copied into a catalog pull
 request as it is. The build, the checks and the tests are ready: write the code
 and the manifest.
 
